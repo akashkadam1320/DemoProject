@@ -17,7 +17,7 @@ namespace DemoProject
             return x + y;
         }
     }
-    internal class StaticPolymorphism
+    internal class StaticPolymorphism1
     {
         static void Main()
         {

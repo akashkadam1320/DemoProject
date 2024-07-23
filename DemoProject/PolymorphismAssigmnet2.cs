@@ -1,51 +1,46 @@
 ﻿//using System;
 //using System.Collections.Generic;
+//using System.Globalization;
 //using System.Linq;
 //using System.Text;
 //using System.Threading.Tasks;
 
 //namespace DemoProject
-
 //{
-//    // Base Class 
-//    // Method NAme same Parmeter Aslo same but different class
-//    class Shape
+//    class Animal
 //    {
-//        // Virtual method
 //        public virtual void Draw()
 //        {
 //            Console.WriteLine("Drawing a shape");
+
 //        }
 //    }
-//   // Derved class
-//    class Circle : Shape
+//    class Circle : Animal
 //    {
 //        public override void Draw()
 //        {
 //            Console.WriteLine("Drawing a Circle");
 //        }
 //    }
-
-//    class Rectangle : Shape
+//    class Rectangle : Animal
 //    {
 //        public override void Draw()
 //        {
 //            Console.WriteLine("Drawing a Rectangle");
 //        }
 //    }
-//    internal class DynamicPolymorphism
+//    internal class PolymorphismAssigmnet2
 //    {
 //        static void Main()
 //        {
-//            //// Creating Object
-//            //Shape shape1 = new Shape();
-//            //Shape shape2 = new Circle();
-//            //Shape shape3 = new Rectangle();
+//            Animal animal1 = new Animal();
+//            Animal animal2 = new Circle();
+//            Animal animal3 = new Rectangle();
 
-//            //// Calling Method form each object
-//            //shape1.Draw();
-//            //shape2.Draw();
-//            //shape3.Draw();
+//            animal1.Draw();
+//            animal2.Draw();
+//            animal3.Draw();
+
 //        }
 //    }
 //}
